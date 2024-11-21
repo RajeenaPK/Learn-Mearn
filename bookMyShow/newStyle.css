@@ -129,4 +129,10 @@
 .cardOne{
     width: 85%;
     height: 250px;
+    display: flex;
 }
+.filmCard{
+    max-width: 20%;
+    max-height: 150px;
+}
+
