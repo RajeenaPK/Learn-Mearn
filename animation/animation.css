@@ -1,0 +1,40 @@
+.box {
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    position: relative;
+    display: flex;
+  }
+  
+  h1{
+    align-items: center;
+    font-size: 24px;
+    animation: roll 6s linear infinite;
+  }
+  @keyframes roll {
+    0% {
+      margin-left: 100%;
+      font-size: 24px;
+    }
+    20% {
+        font-size: 24px;
+        color: black;
+      }
+    25% {
+      font-size: 36px; 
+      color: white;
+    }
+    50% {
+      font-size: 36px;
+      color: white;
+    }
+    75% {
+        font-size: 36px;
+        color: white;
+      }
+    100% {
+      margin-left: 0%; 
+      font-size: 24px; 
+      color: black;
+    }
+  }
